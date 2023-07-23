@@ -1,0 +1,49 @@
+.projects-container {
+    padding: 20px;
+  }
+ 
+  .project-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    
+  }
+  
+  .project-card {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(238, 132, 46, 0.995);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border: #ff7f50 5px;
+  }
+  
+  .project-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .project-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .project-card p {
+    margin-bottom: 10px;
+  }
+  
+  .project-card a {
+    color: #ff7f50;
+    text-decoration: none;
+ 
+  }
+  .demo{
+    color:#ff7f50;
+    
+  }
+  @media (max-width: 768px) {
+    .project-cards {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
